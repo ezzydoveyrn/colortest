@@ -1,5 +1,5 @@
 let txt = document.getElementById("text");
-let bgcolor = JSON.parse(localStorage.getItem("color")) || "red";
+let bgcolor = JSON.parse(localStorage.getItem("color")) || "";
 txt.addEventListener("keyup", (e)=>{
   if (e.key === "Enter") {
     let value = txt.value;
